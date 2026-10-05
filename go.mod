@@ -1,4 +1,4 @@
-module github.com/Qode-Platform/qode-fiber-template-v1
+module github.com/Qode-Fleet-Control/qode-fiber-template-v1
 
 go 1.23
 

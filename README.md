@@ -1,6 +1,6 @@
 # Fiber template
 
-Provisioned from [`Qode-Platform/fleet-template-v1`](https://github.com/Qode-Platform/fleet-template-v1) - the fleet
+Provisioned from [`Qode-Fleet-Control/fleet-template-v1`](https://github.com/Qode-Fleet-Control/fleet-template-v1) - the fleet
 lifecycle contract with a Fiber starter on top.
 
 ## Verified
