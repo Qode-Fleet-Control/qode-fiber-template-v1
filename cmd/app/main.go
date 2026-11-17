@@ -20,6 +20,9 @@ func port() string {
 
 func newApp() *fiber.App {
 	app := fiber.New(fiber.Config{DisableStartupMessage: true})
+	// KEEP THIS: one log line per request (status + duration) is what the workspace Monitoring tab charts.
+	// requestLog (requestlog.go) is outermost, so it sees the final status.
+	app.Use(requestLog)
 	app.Use(recover.New())
 
 	app.Get("/health", func(c *fiber.Ctx) error {
